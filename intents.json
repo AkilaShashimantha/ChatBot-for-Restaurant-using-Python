@@ -1,0 +1,72 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Good morning", "Good afternoon", "Good evening", "How's it going", "Hi", "Hello"],
+    "responses": ["Good morning!", "Good afternoon!", "Good evening!", "I'm doing well, how can I help you today?", "Hello! How can I assist you?"]
+  },
+  {
+    "tag": "menu",
+    "patterns": ["Show me the menu", "What's on the menu?", "Can I see your food options?", "What dishes do you offer?", "Food list"],
+    "responses": ["Sure, here’s our menu!", "Here are the dishes we offer today.", "You can browse our food menu here."]
+  },
+  {
+    "tag": "table_booking",
+    "patterns": ["I want to book a table", "Reserve a table", "Can I make a reservation?", "Table for two at 7 PM", "Book table now"],
+    "responses": ["Sure! How many people and what time?", "Got it! Please provide the number of guests and your preferred time."]
+  },
+  {
+    "tag": "order_food",
+    "patterns": ["I want to order food", "Order a pizza", "Can I get a burger?", "I'd like to place an order", "Place an order now"],
+    "responses": ["Of course! What would you like to order?", "Sure, please tell me the items you'd like to order."]
+  },
+  {
+    "tag": "opening_hours",
+    "patterns": ["What are your opening hours?", "When do you open?", "Are you open now?", "Till what time are you open?"],
+    "responses": ["We’re open from 10 AM to 10 PM every day!", "Our restaurant is open daily from 10 in the morning to 10 at night."]
+  },
+  {
+    "tag": "delivery",
+    "patterns": ["Do you deliver?", "Can I get food delivered?", "Is delivery available?", "Do you offer home delivery?", "Send food to my house"],
+    "responses": ["Yes, we offer home delivery! What would you like to order?", "Sure, delivery is available. Please share your address."]
+  },
+  {
+    "tag": "offers",
+    "patterns": ["Any special offers?", "Do you have any discounts?", "Any deals today?", "What's the offer today?"],
+    "responses": ["Yes! We have a 20% discount on all orders above $30.", "Buy one get one free on selected pizzas today!", "Check out our specials on the app."]
+  },
+  {
+    "tag": "specials",
+    "patterns": ["What are today’s specials?", "Do you have any chef specials?", "Show me today’s special dishes"],
+    "responses": ["Today’s special is grilled salmon with garlic sauce.", "We have a special offer on our chicken biryani today."]
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you located?", "What's your address?", "Send me your location", "Restaurant location please"],
+    "responses": ["We’re located at 123 Main Street, Downtown.", "You can find us at the corner of Elm and 5th."]
+  },
+  {
+    "tag": "payment_methods",
+    "patterns": ["How can I pay?", "What payment methods do you accept?", "Do you accept cards?", "Can I pay with cash?"],
+    "responses": ["We accept credit cards, debit cards, and cash.", "You can pay via Visa, Mastercard, or cash on delivery."]
+  },
+  {
+    "tag": "complaint",
+    "patterns": ["I have a complaint", "My order is wrong", "The food was cold", "I want to report a problem"],
+    "responses": ["We’re really sorry to hear that. Please share your issue and we’ll fix it right away.", "Apologies! Please tell us what went wrong so we can make it right."]
+  },
+  {
+    "tag": "cancel_order",
+    "patterns": ["I want to cancel my order", "Cancel my food order", "How do I cancel?", "Cancel order please"],
+    "responses": ["Sure. Please share your order ID to proceed with cancellation.", "Got it. We’re processing your cancellation request."]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+    "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Bye", "Talk to you soon"],
+    "responses": ["Goodbye! Have a great day!", "See you soon!", "Thanks for visiting!"]
+  }
+]
