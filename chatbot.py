@@ -5,6 +5,10 @@ import streamlit as st
 import random
 import json
 
+# Load intents.json
+with open("intents.json", "r") as file:
+    intents = json.load(file)
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
